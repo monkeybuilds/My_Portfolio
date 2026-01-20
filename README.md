@@ -120,7 +120,7 @@ See [VITE_DEPLOYMENT_GUIDE.md](./VITE_DEPLOYMENT_GUIDE.md) for detailed deployme
 
 ## License 📜
 
-© 2026 Savita Pathak. All rights reserved.
+© 2026 Atharv Pathak. All rights reserved.
 
 Feel free to fork and customize for your own portfolio. Attribution appreciated! 
 
