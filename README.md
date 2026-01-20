@@ -1,52 +1,134 @@
-# Personal Developer Portfolio 🚀
+# Savita Pathak - Portfolio 🚀
 
-[![Site preview](/public/assets/thumbnail.png)](https://figma-portfolio-ten.vercel.app/)
+A modern, high-performance portfolio showcasing skills, projects, and experience as a **Python Developer**, **Data Scientist**, and **Creative Technologist**.
 
-Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a Software Engineer and UI/UX Designer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). It not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](https://figma-portfolio-ten.vercel.app/).
+Built with [Vite](https://vitejs.dev/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/).
 
-# Features 🎉
+## Features ✨
 
-The whole [portfolio](https://figma-portfolio-ten.vercel.app/) is a React-based single page app built with Next.js in TypeScript, using only statically generated pages.
+- **Lightning-Fast Performance**: Built with Vite for ultra-fast development and production builds
+- **Modern Design**: Dark-themed UI with purple gradient accents and smooth animations
+- **Animated Typing Effect**: Dynamic text animation in the hero section cycling through roles
+- **Fully Responsive**: Works seamlessly on mobile, tablet, and desktop devices
+- **Component-Based Architecture**: Modular React components for easy customization
+- **Smooth Animations**: Engaging interactions with CSS transitions and effects
+- **Analytics Ready**: Vercel Analytics integration for tracking user engagement
+- **SEO Optimized**: Clean markup and semantic HTML for better search engine visibility
 
-- **Modern Design**: Beautiful, dark-themed UI designed in Figma with purple gradient accents
-- **Animated Typing Effect**: Dynamic text animation in the hero section that cycles through roles
-- **Responsive Layout**: Fully responsive design that works seamlessly on all devices
-- **Performance Optimized**: Built with Next.js 16 for optimal performance and SEO
-- **Project Showcase**: Featured projects section with detailed descriptions and links
-- **Smooth Animations**: Engaging user experience with smooth transitions and effects
-- **Analytics Integration**: Vercel Analytics for tracking website performance
+## Tech Stack 🛠️
 
-# Fonts ✍🏻
+- **Frontend Framework**: React 19 with Vite 5
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 4
+- **Build Tool**: Vite (ESBuild-powered)
+- **Analytics**: Vercel Analytics
+- **Deployment**: Vercel, Netlify, or any static host
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load [Poppins](https://fonts.google.com/specimen/Poppins), a custom Google Font with multiple weights (300-900).
+## Project Structure 📁
 
-# Project images 🖼️
+```
+src/
+├── App.tsx                 # Main app component
+├── main.tsx                # Entry point
+├── globals.css             # Global styles
+└── components/
+    ├── Header.tsx          # Navigation header
+    ├── Banner.tsx          # Hero section with typing effect
+    ├── Experience.tsx      # Work experience cards
+    ├── About.tsx           # Skills & certifications
+    ├── Projects.tsx        # Featured projects
+    ├── DesignPortfolio.tsx # Design work showcase
+    ├── WorksInProgress.tsx # Upcoming projects
+    ├── SocialMedia.tsx     # Social links
+    └── Footer.tsx          # Contact section
 
-All project images live under `public/projects` and are referenced in the `Projects.tsx` component. The assets folder contains all icons, images, and other media files used throughout the portfolio.
+public/                    # Static assets
+index.html                 # HTML entry point
+vite.config.ts            # Vite configuration
+tsconfig.json             # TypeScript config
+```
 
-# ✨ Development
+## Getting Started 🚀
+
+### Prerequisites
+- Node.js 16+ 
+- npm or yarn
+
+### Installation
 
 ```bash
-git clone git@github.com:ibrahimmemonn/Figma_Portfolio.git
+# Clone the repository
+git clone https://github.com/monkeybuilds/My_Portfolio.git
+cd My_Portfolio
 
-cd Figma_Portfolio/
+# Install dependencies
+npm install
 
-npm i
-
+# Start development server
 npm run dev
 ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The app will be available at `http://localhost:3000` with hot module replacement enabled.
 
-# 🚚 Deployment
+### Development
 
-Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [figma-portfolio-ten.vercel.app](https://figma-portfolio-ten.vercel.app/). A link to a preview deployment will appear under each Pull Request.
+Edit components in `src/components/` - changes will instantly reflect in the browser.
 
-# 🏛 Licenses
+### Building for Production
 
-© Copyright 2025 Ibrahim Memon
+```bash
+# Build optimized production bundle
+npm run build
 
-Don't care if you fork & play with it, but you're not allowed to publish anything from it as a whole without my written permission. Also please be aware, the combination of typography, colors & layout makes up my brand identity. So please don't just clone everything, but rather do a remix!
+# Preview production build locally
+npm run preview
+```
+
+The optimized build will be in the `dist/` directory.
+
+## Deployment 🌐
+
+### Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel --prod
+```
+
+### Netlify
+```bash
+npm install -g netlify-cli
+netlify deploy --prod --dir=dist
+```
+
+### GitHub Pages or Static Hosting
+1. Run `npm run build`
+2. Upload contents of `dist/` folder to your hosting service
+
+See [VITE_DEPLOYMENT_GUIDE.md](./VITE_DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
+
+## Performance 📊
+
+- **Fast Build Times**: Vite provides near-instant dev startup
+- **Optimized Bundle**: Tree-shaking and code-splitting out of the box
+- **Lighthouse Score**: Optimized for performance, accessibility, and SEO
+
+## Images & Assets 🖼️
+
+- Project images: `public/projects/`
+- Design portfolio: `public/assets/portfolio/`
+- Cards and icons: `public/cards/`, `public/logo/`
+
+## License 📜
+
+© 2026 Savita Pathak. All rights reserved.
+
+Feel free to fork and customize for your own portfolio. Attribution appreciated! 
+
+## Contact 📧
+
+- GitHub: [@monkeybuilds](https://github.com/monkeybuilds)
+- YouTube: [Builds Monkey](https://www.youtube.com/@buildsmonkey)
+- Instagram: [@atharvapath](https://www.instagram.com/atharvapath)
 
 ---
 
