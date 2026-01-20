@@ -1,4 +1,4 @@
-# Savita Pathak - Portfolio 🚀
+# Atharv Pathak - Portfolio 🚀
 
 A modern, high-performance portfolio showcasing skills, projects, and experience as a **Python Developer**, **Data Scientist**, and **Creative Technologist**.
 
